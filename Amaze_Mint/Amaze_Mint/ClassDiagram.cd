@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bob">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="enemy">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ooKAIRAAgDAQABAIQJAAAAAhGAQIAiAABAIAAQAkAUM=</HashCode>
+      <FileName>enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Engine::corner" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Engine.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CKYAivKRDQogEGCkWAYoAApLcNB8BhRQBBBAAhgEIQA=</HashCode>
+      <FileName>Engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAQAAAAAEAAABACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelManager">
+    <Position X="11.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAARAAgAAAAIAAAABAAAAAAAAEAAABkBBA=</HashCode>
+      <FileName>LevelManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayableCharacter">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qIaAIRAAgDAQARAIQJgAAIAhGAQoAiIABAIAAQBkEXs=</HashCode>
+      <FileName>PlayableCharacter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rays">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Rays::ray" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rays.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Rays::segment" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rays.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Rays::intersection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rays.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Rays::segmentFinal" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rays.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAECAAABAACAIAE=</HashCode>
+      <FileName>Rays.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureHolder">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAgAAAAAAAAAQAAAAAg=</HashCode>
+      <FileName>TextureHolder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thomas">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Thomas.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Car">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAACAAAAAAAAAABAAAQAAEABgAABAAAA=</HashCode>
+      <FileName>race.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="enemyState">
+    <Position X="2.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>enemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
